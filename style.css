@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #00000010;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button i {
+    margin-right: 6px;
+  }
+  
+  button:hover {
+    background: #0f75d6;
+  }
+  
+  #filtro {
+    margin: 1rem 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .alerta {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+  }
+  
+  .alerta.sucesso {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alerta.erro {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .lista-imoveis {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .card h3 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .card p {
+    margin: 0.2rem 0;
+  }
+  
+  .card .acoes {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .card button {
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .card button.editar {
+    background-color: #28a745;
+  }
+  
+  .card button.excluir {
+    background-color: #dc3545;
+  }
+  
