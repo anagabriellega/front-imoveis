@@ -5,10 +5,6 @@ Este é o front-end de uma aplicação web para cadastro de imóveis, desenvolvi
 
 ![Print do layout da aplicação](https://github.com/user-attachments/assets/ced7b5d6-6fbb-47d8-ab26-1e63428c4748)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/anagabriellega/front-imoveis?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/anagabriellega/front-imoveis?style=for-the-badge)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fanagabriellega.github.io%2Ffront-imoveis&style=for-the-badge)
-
 ---
 
   ## 🔗 Acesse o site online
